@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Servicenow">
+  <test thread-count="2" name="createandupdate" parallel="classes">
+    <classes>
+      <class name="Week5day9.IncidentManagement"/>
+      <class name="Week5day9.IncidentManagement2"/>
+    </classes>
+  </test> <!-- createandupdate -->
+</suite> <!-- Servicenow -->
